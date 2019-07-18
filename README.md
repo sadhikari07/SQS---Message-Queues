@@ -52,3 +52,7 @@
 ![Screen Screen](https://raw.githubusercontent.com/sadhikari07/SQS---Message-Queues/master/assets/recieve.png)
 
 
+## References:
+- https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/setup-project-gradle.html
+- https://javalibs.com/artifact/com.amazonaws/aws-java-sdk-sqs
+- https://github.com/awsdocs/aws-doc-sdk-examples/blob/master/java/example_code/sqs/src/main/java/aws/example/sqs/SendReceiveMessages.java
