@@ -39,11 +39,11 @@
 ## For running:
 - For sending:
     - On intellij, click on green play button next to the method that sends messages.
-    - On terminal: ./gradlew run
+ 
 
 - For recieving:
      - On intellij, click on green play button next to the method that recieves messages.
-          - On terminal:  ./gradlew run
+         
 
 ## Queue-count aftersending messages:
 ![Screen Screen](https://raw.githubusercontent.com/sadhikari07/SQS---Message-Queues/master/assets/queueWithMessages.png)
