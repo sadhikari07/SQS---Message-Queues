@@ -1,1 +1,54 @@
-# SQS---Message-Queues
+# Lab: SQS - Message Queues
+
+## Overview
+   For this lab, you will be creating a few Message Queues and Broadcasters and wiring them through code.
+
+## Feature Tasks
+   - Create 3 Standard Queues
+        - QueueA
+        - QueueB
+        - QueueC
+   - Create command line applications in Java that use these queues
+   - Queue Publisher
+        - Sends a message to a queue, using its ARN or URL
+   - Queue Client
+        - Receives messages from a Queue (by ARN) and displays them
+
+
+## Wiring Instructions
+
+- Create three different queues in AWS SQS console as standard queue.
+![Screen Screen]()
+
+- Create a java library sqs_lab
+    - For Sender:
+        - Create Java class sqsSend.java
+        - Write code that will send messages to three different queues
+        - [Link to sqsSend.java]()
+
+    - For Receiver:
+        - Create Java class sqsRecieve.java
+        - Create methods for three different recievers
+        - Write code for each methods to get messages from the queues
+        - [Link to sqsRecieve.java]()
+
+    - For both:
+        - Get the URLs from SQS
+        - Store URLs in environment variables
+
+## For running:
+- For sending:
+    - On intellij, click on green play button next to the method that sends messages.
+    - On terminal: ./gradlew run
+
+- For recieving:
+     - On intellij, click on green play button next to the method that recieves messages.
+          -On terminal:  ./gradlew run
+
+## Queue-count aftersending messages:
+![Screen Screen]()
+
+## Intellij console showing the recieved messages:
+![Screen Screen]()
+
+
