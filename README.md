@@ -46,9 +46,9 @@
           -On terminal:  ./gradlew run
 
 ## Queue-count aftersending messages:
-![Screen Screen]()
+![Screen Screen](https://raw.githubusercontent.com/sadhikari07/SQS---Message-Queues/master/assets/queueWithMessages.png)
 
 ## Intellij console showing the recieved messages:
-![Screen Screen]()
+![Screen Screen](https://raw.githubusercontent.com/sadhikari07/SQS---Message-Queues/master/assets/recieve.png)
 
 
