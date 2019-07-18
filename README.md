@@ -18,19 +18,19 @@
 ## Wiring Instructions
 
 - Create three different queues in AWS SQS console as standard queue.
-![Screen Screen]()
+![Screen Screen](https://raw.githubusercontent.com/sadhikari07/SQS---Message-Queues/master/assets/sqsConfig.png)
 
 - Create a java library sqs_lab
     - For Sender:
         - Create Java class sqsSend.java
         - Write code that will send messages to three different queues
-        - [Link to sqsSend.java]()
+        - [Link to sqsSend.java](https://github.com/sadhikari07/SQS---Message-Queues/blob/master/src/main/java/sqs_lab/SqsSend.java)
 
     - For Receiver:
         - Create Java class sqsRecieve.java
         - Create methods for three different recievers
         - Write code for each methods to get messages from the queues
-        - [Link to sqsRecieve.java]()
+        - [Link to sqsRecieve.java](https://github.com/sadhikari07/SQS---Message-Queues/blob/master/src/main/java/sqs_lab/SqsRecieve.java)
 
     - For both:
         - Get the URLs from SQS
